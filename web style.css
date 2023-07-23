@@ -1,0 +1,446 @@
+*{
+
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+text-decoration: none;
+}
+            /* nav-start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/blue_bg.png);
+    position: static;
+    width: 100%;
+    height: 100px;
+}
+                  /* left-nav start*/
+.left-nav{
+    display: flex;
+    
+    
+}
+.leftstylenav{
+    display: flex;
+    margin-left: 10PX;
+    margin-top: 60px;
+    padding-left: 30px;
+    font-size: 24px;
+    text-decoration-line: none;
+   
+    color: black;
+}
+:hover.leftstylenav{
+    
+    border-bottom: 2px solid rgb(179, 9, 60);  
+    color: rgb(22, 128, 189);
+    transform: scale(1.2);
+}
+.leftstylenav1{
+    display: flex;
+    margin-left: 10PX;
+    margin-top: 30px;
+    width: 190px;
+    height:90px;
+    
+}
+                       /* left-nav end */
+
+                       /* right-nav start*/
+.right-nav{
+    display: flex;
+    /* margin-top: 50px; */
+}
+.logi{
+    display: flex;
+    border: none;
+}
+.login{
+    display: flex;
+    position:relative ;
+    top: 20%;
+    right: 70px;
+    
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 25%;    
+    background-image: url(images/login_button_bg.png);
+    background-size: 100%,30PX;
+    background-repeat: no-repeat;
+    
+    opacity:100% ;
+}
+
+.login1{
+    display: flex;
+    position: absolute;
+    margin-top: 8px;
+    margin-left:45px;
+    font-size:25px
+}
+          /* right-nav end*/
+              /* header start */
+
+header{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    position: relative;
+    
+  
+}
+.sora{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    z-index: 1;
+
+               /* left: 20 */
+   
+}
+    
+
+              
+ .landing{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 65%;
+    width: 680px;
+    height: 580px;
+    z-index: 2;
+    /* transform: translate(10% , 10px  ); */
+    /* margin-top: px; */
+ }      
+ 
+ .leftheader{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+ 
+
+ .mark{
+   color: rgb(138, 17, 175);  
+ }
+
+ .disc{
+    position: absolute;
+    top: 65px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+ }
+
+.clouds{
+    position: absolute;
+    top: 350px;
+    left: 1600px;
+    width: 600px;
+    height: 300px;
+    opacity: 95%;
+    z-index: 4;
+}
+.mask{
+position:absolute;
+top: 50px;
+left: 1750px;
+width:230px;
+height: 400px;
+z-index: 3;
+
+
+
+}
+.waves{
+    position: absolute;
+    top: 360px;
+    right: 450px;
+}
+
+section{
+    position: relative;
+    height: 100vh;
+    
+
+}
+.second{
+    position:absolute ;
+    top: 200px;
+    left: 500px;
+    width: 1400px;
+    height: 500px;
+    z-index: 1;
+}
+.gr140{
+    position: absolute;
+    top: 275px;
+    left: 360px;
+
+}
+.aboutgr140{
+    position: absolute;
+    top: 480px;
+    left: 350px;
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+.aboutsgr140{
+    position: absolute;
+    top: 520px;
+    left: 290px;
+    font-size: 25px;
+    font-family: sans-serif;
+ 
+}
+.aboutssgr140{
+    position: absolute;
+    top: 560px;
+    left: 250px;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+.gr152{
+    position: relative;
+    top: 400px;
+    left: 1000px;
+    z-index: 1;
+}
+.agr152{
+ position: absolute;
+ top:600px;
+ left: 1000px;
+ font-size: 30px;
+font-family: sans-serif;
+}
+.aboutgr152{
+    
+ position: absolute;
+ top:630px;
+ left: 900px;
+ font-size: 25px;
+font-family: sans-serif;
+}
+.aboutsgr152{ 
+  position: absolute;
+  top:660px;
+  left: 960px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.gr1020{
+    position: relative;
+    top: 490px;
+    left: 1500px;
+}
+.aboutgr1020{
+    position: absolute;
+    top:880px;
+    left: 1600px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.aboutsgr1020{
+    
+    position: absolute;
+    top:920px;
+    left: 1450px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.aboutssgr1020{
+    position: absolute;
+    top:950px;
+    left: 1430px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.whykud{
+    position: relative;
+    top: 400px;
+    left: 200px;
+}
+.textkud{
+    position: absolute;
+    top: 910px;
+    left: 330px;
+    font-size:28px ;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.textkud1{
+position: absolute;
+top: 950px;
+left: 330px;
+font-size:50px ;
+color: white;
+font-family: sans-serif;
+font-weight: 100;
+
+}
+.gr1006{
+
+    position: absolute ;
+    top: 1500px;
+    left:500px; 
+    width: 280px;
+}
+.gr1007{
+    position: absolute ;
+    top: 1300px;
+    left:1000px; 
+    width: 500px;
+
+}
+.gr1008{
+    position: absolute ;
+    top: 1500px;
+    left:1750px; 
+    width: 280px;
+}
+.about1007{
+    position: absolute;
+    top: 1700px;
+    left: 1100px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.abou1007{
+    position: absolute;
+    top: 1750px;
+    left: 1100px;
+    font-size: 26px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.fa-angle-right{
+    position: absolute;
+    top: 1650px;
+    left: 1600px;
+    font-size: 50px;
+    color: darkgray;
+}
+.fa-angle-left{
+    position: absolute;
+    top: 1650px;
+    left: 900px;
+    font-size: 50px;
+    color: darkgray;
+}
+
+footer{
+position: relative;
+height: 1330px;
+overflow: hidden;
+}
+.gr1131{
+    position: absolute;
+    top: 870px;
+    width: 2375px;
+    height: 650px;
+    overflow: hidden;
+    z-index: 1;
+}
+.friends{
+    position: absolute;
+    top: 880px;
+    left: 1340px;
+    width: 700px;
+    height: 500px;
+    z-index: 2;
+}
+.apple{
+    position: absolute;
+    top: 1168px;
+    left: 215px;
+    width: 30px;
+    z-index: 3;
+}
+.box{
+    position: absolute;
+    top: 1160px;
+    left: 200px;
+    width: 160px;
+    height: 55px;
+    border-radius: 8%;
+    z-index: 2;
+}
+.box1{
+    position: absolute;
+    top: 1170px;
+    left: 260px;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+.boxx1{
+    position: absolute;
+    top: 1189px;
+    left: 260px;
+    font-size: medium;
+    z-index: 2;
+}
+.box22{
+    position: absolute;
+    top: 1160px;
+    left: 400px;
+    width: 160px;
+    height: 52px;
+    border-radius: 8%;
+    z-index: 2;
+}
+.box2{
+    position: absolute;
+    top: 1170px;
+    left: 450px;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+.boxx2{
+    position: absolute;
+    top: 1189px;
+    left: 450px;
+    font-size: medium;
+    z-index: 2;
+}
+.playstore{
+    position: absolute;
+    top: 1169px;
+    left: 413px;
+    width: 30px;
+    z-index: 3;
+}
+.f-icon{
+    display: flex;
+    position: absolute;
+    top: 1230px;
+    left: 200px;
+    width: 30px;
+    z-index: 3;
+    letter-spacing: 15px;
+    color: azure;
+    font-size: 30px;
+    opacity: 80%;
+}
+.endlinks{
+    display: flex;
+    
+    position: absolute;
+    top: 1280px;
+    left: 180px;
+    z-index: 3;
+    font-size: 30px;
+    text-decoration: none;
+}
+.endfotr{
+    display: flex;
+    padding-left: 20px;
+    color: azure;
+    opacity: 80%;
+}
